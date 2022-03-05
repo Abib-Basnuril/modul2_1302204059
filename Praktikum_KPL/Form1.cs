@@ -140,14 +140,14 @@ namespace Praktikum_KPL // Muhammad Abieb Basnuril 1302204059
             }
         }
 
-        private void tambah_Click(object sender, EventArgs e)
+        private void tambah_Click(object sender, EventArgs e) // Button Tanda Tambah
         {
             FirstNumber = Convert.ToDouble(textBox1.Text);
             textBox1.Text = "0";
             Operation = "+";
         }
 
-        private void samadengan_Click(object sender, EventArgs e)
+        private void samadengan_Click(object sender, EventArgs e) // Button Sama dengan
         {
             double SecondNumber;
             double Result;
@@ -160,11 +160,11 @@ namespace Praktikum_KPL // Muhammad Abieb Basnuril 1302204059
                 textBox1.Text = Convert.ToString(Result);
                 FirstNumber = Result;
             }
-            
-            }
+
         }
-    }       
-            
+    }
+}
+
 
 
 // Muhammad Abieb Basnuril 1302204059
